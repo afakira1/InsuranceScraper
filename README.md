@@ -76,6 +76,8 @@ us_link = soup.find('a', string='United States')
 ---
 #### Step 4. Full Crawling + Agent Extraction
 
+> **Note:** The expandable block below contains the full end-to-end scraping loop.
+> The steps that follow highlight the key parts of the workflow with short, readable snippets.
 <details>
 <summary><b>View scraping loop</b></summary>
 
@@ -173,7 +175,7 @@ for state_link in state_links_container.find_all("a"):
 ```
 </details>
 
-#### Step 4. Extract Agent Information
+#### Step 4A. Extract Agent Information
 
 For each city page, agent profile cards are parsed to retrieve:
 
