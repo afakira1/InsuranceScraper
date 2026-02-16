@@ -231,6 +231,24 @@ df_agents.to_excel("'YOUR FILE NAME HERE'.xlsx", index=False)
 if __name__ == '__main__':
     scrape_agents()
 ```
+
+## Output Preview
+
+The script generates a structured Excel dataset dataset containing all listed agents and their office information.
+
+<img width="1728" height="1057" alt="Screenshot 2026-02-16 at 3 41 50 PM" src="https://github.com/user-attachments/assets/69813ae1-9e24-462d-b1b1-0eaadd96fc8f" />
+
+## Potential Analytical Use Cases
+
+The generated dataset enables several downstream analytical applications, including:
+
+- Geographic footprint analysis of agent office distribution  
+- Identification of high-density markets for recruitment or expansion  
+- Ranking agents by operational scale (number of offices)  
+- State-level penetration analysis  
+- Network structure insights across multi-office agents  
+
+This dataset can support strategic decisions related to territory planning, agent performance benchmarking, and regional growth initiatives.
 <!--
 # Insurance Agent Information: Dataset Generation With Scraping
 
