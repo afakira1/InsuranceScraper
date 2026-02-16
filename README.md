@@ -170,8 +170,9 @@ for state_link in state_links_container.find_all("a"):
                 })
 
         time.sleep(1)
-</details>```
 ```
+</details>
+
 #### Step 4. Extract Agent Information
 
 For each city page, agent profile cards are parsed to retrieve:
